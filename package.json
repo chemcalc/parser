@@ -1,0 +1,16 @@
+{
+	"name": "parser",
+	"version": "1.0.0",
+	"description": "🧮 Chemical equations parser",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"repository": "https://github.com/chemcalc/parser.git",
+	"author": "supernova350",
+	"license": "MIT",
+	"scripts": {
+		"build": "tsc"
+	},
+	"devDependencies": {
+		"typescript": "^4.6.3"
+	}
+}
