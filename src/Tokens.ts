@@ -1,4 +1,9 @@
-export enum Tokens {
-	OPEN_PAREN = '(',
-	CLOSE_PAREN = ')',
-}
+const Tokens = {
+	OPEN_PAREN: '(',
+	CLOSE_PAREN: ')',
+	YIELDS: ['->'],
+	WHITESPACE: ' ',
+	PLUS: '+',
+} as const;
+
+export { Tokens };
