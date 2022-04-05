@@ -1,2 +1,1 @@
-# parser
-🧮 Chemical equations parser
+# 🧮 Chemical equations parser
